@@ -1,0 +1,60 @@
+ /* reset all paddings/margins to zero */
+* { 
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    
+
+}
+
+.navigation-container {
+    background-color: #352d2f;
+    height: 75px;
+    width: 100%;
+    text-align:center;
+}
+
+#logo {
+    padding-left: 20px;
+    float: left;
+}
+
+
+#nav {
+  padding-top: 30px;
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 20px;
+
+}
+li a {
+    font-size: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;    
+}
+
+/* unvisited link */
+a:link {
+    color:#FFFFFF;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFFF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #35c0cd;
+}
+
+/* selected link */
+a:active {
+    color: #ffd000;
+}  
